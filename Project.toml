@@ -1,0 +1,15 @@
+name = "FarPointStatistics"
+uuid = "d200e52a-f1cf-47db-803e-afe27b9c9524"
+authors = ["okatsn <okatsn@gmail.com> and contributors"]
+version = "0.0.1"
+
+[compat]
+julia = "1.10"
+
+[extras]
+CompatHelperLocal = "5224ae11-6099-4aaa-941d-3aab004bd678"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "Documenter", "CompatHelperLocal"]
