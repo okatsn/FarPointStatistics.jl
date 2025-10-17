@@ -1,0 +1,3 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+FarPointStatistics = "d200e52a-f1cf-47db-803e-afe27b9c9524"
