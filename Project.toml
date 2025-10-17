@@ -1,7 +1,7 @@
 name = "FarPointStatistics"
 uuid = "d200e52a-f1cf-47db-803e-afe27b9c9524"
 authors = ["okatsn <okatsn@gmail.com> and contributors"]
-version = "0.0.1"
+version = "0.1.0"
 
 [deps]
 NaNMath = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
