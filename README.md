@@ -41,14 +41,4 @@ transform!(df, :value => outlier_mad(7) => :is_outlier_mad)
 ```
 
 
-## Checklist
-
-- [x] Create an empty repository (namely, `https://github.com/okatsn/FarPointStatistics.jl.git`) on github, and push the local to origin. See [connecting to remote](#tips-for-connecting-to-remote).
-- [x] Add `ACCESS_OKREGISTRY` secret in the settings of this repository on Github, or delete both `register.yml` and `TagBot.yml` in `/.github/workflows/`. See [Auto-Registration](#auto-registration).
-- [ ] To keep `Manifest.toml` being tracked, delete the lines in `.gitignore`.
-- [ ] You might like to register `v0.0.0` in order to `pkg> dev FarPointStatistics` in your environment.
-
-
-
-
 This package is create on 2025-10-17.
